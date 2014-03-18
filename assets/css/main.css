@@ -1,0 +1,399 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+body *zoom:1:before,
+body *zoom:1:after {
+  content: "";
+  display: table;
+}
+body *zoom:1:after {
+  clear: both;
+}
+.container {
+  display: table;
+  max-width: size-container;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+.span-1 {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 8.333333333333334%;
+  margin: 0 0.4807692307692308%;
+  *width: 8.328993055555555%;
+  *margin: 0 0.4805188301282051%;
+}
+@media (max-width: 580px) {
+  .span-1 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+.span-2 {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 17.628205128205128%;
+  margin: 0 0.4807692307692308%;
+  *width: 17.61902377136752%;
+  *margin: 0 0.4805188301282051%;
+}
+@media (max-width: 580px) {
+  .span-2 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+.span-3 {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 26.923076923076923%;
+  margin: 0 0.4807692307692308%;
+  *width: 26.90905448717949%;
+  *margin: 0 0.4805188301282051%;
+}
+@media (min-width: 581px) and (max-width: 880px) {
+  .span-3 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 54.807692307692314%;
+    margin: 0 0.4807692307692308%;
+    *width: 54.779146634615394%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+@media (max-width: 580px) {
+  .span-3 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+.span-4 {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 36.21794871794872%;
+  margin: 0 0.4807692307692308%;
+  *width: 36.199085202991455%;
+  *margin: 0 0.4805188301282051%;
+}
+@media (max-width: 580px) {
+  .span-4 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+.span-5 {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 45.51282051282052%;
+  margin: 0 0.4807692307692308%;
+  *width: 45.48911591880342%;
+  *margin: 0 0.4805188301282051%;
+}
+@media (max-width: 580px) {
+  .span-5 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+.span-6,
+.teste,
+.diogo {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 54.807692307692314%;
+  margin: 0 0.4807692307692308%;
+  *width: 54.779146634615394%;
+  *margin: 0 0.4805188301282051%;
+}
+@media (min-width: 581px) and (max-width: 880px) {
+  .span-6,
+  .teste,
+  .diogo,
+.teste,
+.diogo {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+@media (max-width: 580px) {
+  .span-6,
+  .teste,
+  .diogo,
+.teste,
+.diogo {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+.span-7 {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 64.1025641025641%;
+  margin: 0 0.4807692307692308%;
+  *width: 64.06917735042735%;
+  *margin: 0 0.4805188301282051%;
+}
+@media (max-width: 580px) {
+  .span-7 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+.span-8 {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 73.3974358974359%;
+  margin: 0 0.4807692307692308%;
+  *width: 73.35920806623932%;
+  *margin: 0 0.4805188301282051%;
+}
+@media (max-width: 580px) {
+  .span-8 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+.span-9 {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 82.6923076923077%;
+  margin: 0 0.4807692307692308%;
+  *width: 82.64923878205128%;
+  *margin: 0 0.4805188301282051%;
+}
+@media (max-width: 580px) {
+  .span-9 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+.span-10 {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 91.98717948717949%;
+  margin: 0 0.4807692307692308%;
+  *width: 91.93926949786325%;
+  *margin: 0 0.4805188301282051%;
+}
+@media (max-width: 580px) {
+  .span-10 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+.span-11 {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 101.2820512820513%;
+  margin: 0 0.4807692307692308%;
+  *width: 101.22930021367523%;
+  *margin: 0 0.4805188301282051%;
+}
+@media (max-width: 580px) {
+  .span-11 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+.span-12 {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 110.57692307692308%;
+  margin: 0 0.4807692307692308%;
+  *width: 110.51933092948718%;
+  *margin: 0 0.4805188301282051%;
+}
+@media (max-width: 580px) {
+  .span-12 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 110.57692307692308%;
+    margin: 0 0.4807692307692308%;
+    *width: 110.51933092948718%;
+    *margin: 0 0.4805188301282051%;
+  }
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+body {
+  background: #ccc;
+}
+.teste {
+  background: #fff;
+}
+.diogo {
+  background: #fff;
+}

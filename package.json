@@ -1,0 +1,22 @@
+{
+  "name": "sgs",
+  "description": "Stylus Grid System",
+  "version": "0.1.0",
+  "homepage": "http://diogomoretti.github.io/sgs",
+  "author": {
+    "name": "Diogo Moretti",
+    "url": "http://github.com/diogomoretti"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/diogomoretti/sgs.git"
+  },
+  "devDependencies": {
+    "gulp": "~3.5.2",
+    "gulp-stylus": "0.0.12",
+    "gulp-connect": "~0.3.0"
+  },
+  "dependencies": {
+    "gulp-plumber": "~0.5.6"
+  }
+}

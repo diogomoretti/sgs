@@ -1,0 +1,99 @@
+// SGS - Semantic Grid Stylus
+// by Diogo Moretti
+// https://github.com/diogomoretti/sgs
+// Based on Semantic.gs
+
+// ========== CONFIG ==========
+// ============================
+sgs-config-columns          = 12
+sgs-config-gutter           = 10px
+sgs-config-container        = 1040px
+sgs-config-column-width     = sgs-config-container / sgs-config-columns
+sgs-config-class-container  = "container"
+sgs-config-class-column     = "span"
+
+// ========== DEVICES =========
+// ============================
+sgs-device-phone       = 580px
+sgs-device-tablet      = 880px
+
+// ======= MEDIA QUERIES ======
+// ============================
+tablet   = "(min-width: " + (sgs-device-phone + 1) + ") and (max-width: " + (sgs-device-tablet) + ")"
+phone    = "(max-width: " + (sgs-device-phone) + ")"
+
+// ========== HELPERS =========
+// ============================
+*, *:before, *:after
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+clearfix()
+ *zoom:1
+  &:before,
+  &:after
+    content:""
+    display:table
+  &:after
+    clear:both
+
+hideOn(device)
+  display: inherit
+  @media device
+    display: none !important
+ 
+showOn(device)
+  display: none
+  @media device
+    display: inherit !important
+
+// ========= GRID VARS ========
+// ============================
+total-width = 100%
+min-width   = 960
+correction  = (((0.5 / min-width) * 100) * 1%)
+
+
+// ==== MAKE SEMANTIC GRID ====
+// ============================
+body
+  width 100%
+  clearfix()
+
+container()
+  display: table
+  max-width: size-container
+  width: 100%
+  margin: 0 auto
+  padding: 0 1em
+
+column(x, sgs-config-columns = sgs-config-columns)
+  display inline
+  float left
+  overflow hidden
+  width total-width * ((((sgs-config-gutter + sgs-config-column-width ) * x) - sgs-config-gutter) / sgs-config-container)
+  margin 0 total-width * ( (sgs-config-gutter * 0.5) / sgs-config-container)
+  *width total-width * ((((sgs-config-gutter + sgs-config-column-width ) * x) - sgs-config-gutter) / sgs-config-container) - correction
+  *margin 0 total-width * ( (sgs-config-gutter * 0.5) / sgs-config-container) - correction
+
+offset(offset = 1)
+  margin-left total-width*(((sgs-config-gutter+sgs-config-column-width)*offset + (sgs-config-gutter*0.5))/sgs-config-container)
+
+
+// == MAKE NON SEMANTIC GRID ==
+// ============================
+.{sgs-config-class-container}
+  container()
+
+for index in (1..sgs-config-columns)
+  .{sgs-config-class-column}-{index}
+    column(index)
+    if index == 6
+      @media tablet
+        column(12)
+    if index == 3
+      @media tablet
+        column(6)
+    @media phone
+      column(12)
