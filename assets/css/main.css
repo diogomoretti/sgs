@@ -20,7 +20,7 @@ body *zoom:1:after {
 }
 .container {
   display: table;
-  max-width: size-container;
+  max-width: 1040px;
   width: 100%;
   margin: 0 auto;
   padding: 0 1em;
@@ -29,60 +29,90 @@ body *zoom:1:after {
   display: inline;
   float: left;
   overflow: hidden;
-  width: 8.333333333333334%;
-  margin: 0 0.4807692307692308%;
+  padding: 0 0;
+  width: 7.852564102564102%;
+  margin: 0 0.2403846153846154%;
   *width: 8.328993055555555%;
-  *margin: 0 0.4805188301282051%;
+  *margin: 0 0.24025941506410256%;
+}
+@media (min-width: 581px) and (max-width: 880px) {
+  .span-1 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    padding: 0 0;
+    width: 16.185897435897438%;
+    margin: 0 0.2403846153846154%;
+    *width: 17.138504941239315%;
+    *margin: 0 0.24025941506410256%;
+  }
 }
 @media (max-width: 580px) {
   .span-1 {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 .span-2 {
   display: inline;
   float: left;
   overflow: hidden;
-  width: 17.628205128205128%;
-  margin: 0 0.4807692307692308%;
-  *width: 17.61902377136752%;
-  *margin: 0 0.4805188301282051%;
+  padding: 0 0;
+  width: 16.185897435897438%;
+  margin: 0 0.2403846153846154%;
+  *width: 17.138504941239315%;
+  *margin: 0 0.24025941506410256%;
+}
+@media (min-width: 581px) and (max-width: 880px) {
+  .span-2 {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    padding: 0 0;
+    width: 32.8525641025641%;
+    margin: 0 0.2403846153846154%;
+    *width: 34.75752871260684%;
+    *margin: 0 0.24025941506410256%;
+  }
 }
 @media (max-width: 580px) {
   .span-2 {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 .span-3 {
   display: inline;
   float: left;
   overflow: hidden;
-  width: 26.923076923076923%;
-  margin: 0 0.4807692307692308%;
-  *width: 26.90905448717949%;
-  *margin: 0 0.4805188301282051%;
+  padding: 0 0;
+  width: 24.519230769230766%;
+  margin: 0 0.2403846153846154%;
+  *width: 25.94801682692308%;
+  *margin: 0 0.24025941506410256%;
 }
 @media (min-width: 581px) and (max-width: 880px) {
   .span-3 {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 54.807692307692314%;
-    margin: 0 0.4807692307692308%;
-    *width: 54.779146634615394%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 49.519230769230774%;
+    margin: 0 0.2403846153846154%;
+    *width: 52.37655248397436%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 @media (max-width: 580px) {
@@ -90,50 +120,55 @@ body *zoom:1:after {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 .span-4 {
   display: inline;
   float: left;
   overflow: hidden;
-  width: 36.21794871794872%;
-  margin: 0 0.4807692307692308%;
-  *width: 36.199085202991455%;
-  *margin: 0 0.4805188301282051%;
+  padding: 0 0;
+  width: 32.8525641025641%;
+  margin: 0 0.2403846153846154%;
+  *width: 34.75752871260684%;
+  *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
   .span-4 {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 .span-5 {
   display: inline;
   float: left;
   overflow: hidden;
-  width: 45.51282051282052%;
-  margin: 0 0.4807692307692308%;
-  *width: 45.48911591880342%;
-  *margin: 0 0.4805188301282051%;
+  padding: 0 0;
+  width: 41.18589743589744%;
+  margin: 0 0.2403846153846154%;
+  *width: 43.56704059829061%;
+  *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
   .span-5 {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 .span-6,
@@ -142,10 +177,11 @@ body *zoom:1:after {
   display: inline;
   float: left;
   overflow: hidden;
-  width: 54.807692307692314%;
-  margin: 0 0.4807692307692308%;
-  *width: 54.779146634615394%;
-  *margin: 0 0.4805188301282051%;
+  padding: 0 0;
+  width: 49.519230769230774%;
+  margin: 0 0.2403846153846154%;
+  *width: 52.37655248397436%;
+  *margin: 0 0.24025941506410256%;
 }
 @media (min-width: 581px) and (max-width: 880px) {
   .span-6,
@@ -156,10 +192,11 @@ body *zoom:1:after {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 @media (max-width: 580px) {
@@ -171,130 +208,143 @@ body *zoom:1:after {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 .span-7 {
   display: inline;
   float: left;
   overflow: hidden;
-  width: 64.1025641025641%;
-  margin: 0 0.4807692307692308%;
-  *width: 64.06917735042735%;
-  *margin: 0 0.4805188301282051%;
+  padding: 0 0;
+  width: 57.85256410256411%;
+  margin: 0 0.2403846153846154%;
+  *width: 61.186064369658126%;
+  *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
   .span-7 {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 .span-8 {
   display: inline;
   float: left;
   overflow: hidden;
-  width: 73.3974358974359%;
-  margin: 0 0.4807692307692308%;
-  *width: 73.35920806623932%;
-  *margin: 0 0.4805188301282051%;
+  padding: 0 0;
+  width: 66.18589743589745%;
+  margin: 0 0.2403846153846154%;
+  *width: 69.99557625534189%;
+  *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
   .span-8 {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 .span-9 {
   display: inline;
   float: left;
   overflow: hidden;
-  width: 82.6923076923077%;
-  margin: 0 0.4807692307692308%;
-  *width: 82.64923878205128%;
-  *margin: 0 0.4805188301282051%;
+  padding: 0 0;
+  width: 74.51923076923077%;
+  margin: 0 0.2403846153846154%;
+  *width: 78.80508814102564%;
+  *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
   .span-9 {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 .span-10 {
   display: inline;
   float: left;
   overflow: hidden;
-  width: 91.98717948717949%;
-  margin: 0 0.4807692307692308%;
-  *width: 91.93926949786325%;
-  *margin: 0 0.4805188301282051%;
+  padding: 0 0;
+  width: 82.8525641025641%;
+  margin: 0 0.2403846153846154%;
+  *width: 87.61460002670941%;
+  *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
   .span-10 {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 .span-11 {
   display: inline;
   float: left;
   overflow: hidden;
-  width: 101.2820512820513%;
-  margin: 0 0.4807692307692308%;
-  *width: 101.22930021367523%;
-  *margin: 0 0.4805188301282051%;
+  padding: 0 0;
+  width: 91.18589743589745%;
+  margin: 0 0.2403846153846154%;
+  *width: 96.42411191239317%;
+  *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
   .span-11 {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 .span-12 {
   display: inline;
   float: left;
   overflow: hidden;
-  width: 110.57692307692308%;
-  margin: 0 0.4807692307692308%;
-  *width: 110.51933092948718%;
-  *margin: 0 0.4805188301282051%;
+  padding: 0 0;
+  width: 99.51923076923077%;
+  margin: 0 0.2403846153846154%;
+  *width: 105.23362379807693%;
+  *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
   .span-12 {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 110.57692307692308%;
-    margin: 0 0.4807692307692308%;
-    *width: 110.51933092948718%;
-    *margin: 0 0.4805188301282051%;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
   }
 }
 html,
@@ -387,6 +437,13 @@ td {
 }
 a img {
   border: none;
+}
+* {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 body {
   background: #ccc;

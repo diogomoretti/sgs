@@ -5,12 +5,14 @@
 
 // ========== CONFIG ==========
 // ============================
-sgs-config-columns          = 12
-sgs-config-gutter           = 10px
-sgs-config-container        = 1040px
-sgs-config-column-width     = sgs-config-container / sgs-config-columns
-sgs-config-class-container  = "container"
-sgs-config-class-column     = "span"
+sgs-config-columns           = 12
+sgs-config-gutter            = 5
+sgs-config-container         = 1040px
+sgs-config-padding-column    = 0
+sgs-config-padding-container = 0
+sgs-config-column-width      = sgs-config-container / sgs-config-columns
+sgs-config-class-container   = "container"
+sgs-config-class-column      = "span"
 
 // ========== DEVICES =========
 // ============================
@@ -63,7 +65,7 @@ body
 
 container()
   display: table
-  max-width: size-container
+  max-width: sgs-config-container
   width: 100%
   margin: 0 auto
   padding: 0 1em
@@ -72,7 +74,8 @@ column(x, sgs-config-columns = sgs-config-columns)
   display inline
   float left
   overflow hidden
-  width total-width * ((((sgs-config-gutter + sgs-config-column-width ) * x) - sgs-config-gutter) / sgs-config-container)
+  padding 0 sgs-config-padding-column
+  width total-width * ((((sgs-config-column-width ) * x) - sgs-config-gutter) / sgs-config-container)
   margin 0 total-width * ( (sgs-config-gutter * 0.5) / sgs-config-container)
   *width total-width * ((((sgs-config-gutter + sgs-config-column-width ) * x) - sgs-config-gutter) / sgs-config-container) - correction
   *margin 0 total-width * ( (sgs-config-gutter * 0.5) / sgs-config-container) - correction
@@ -95,5 +98,11 @@ for index in (1..sgs-config-columns)
     if index == 3
       @media tablet
         column(6)
+    if index == 2
+      @media tablet
+        column(4)
+    if index == 1
+      @media tablet
+        column(2)
     @media phone
       column(12)
