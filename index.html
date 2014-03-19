@@ -11,15 +11,15 @@
 </head>
 <body>
 
-    <a href="http://github.com/Roparz" target="_blank" class="forkme">Fork on GitHub</a>
+    <a href="http://github.com/diogomoretti/sgs" target="_blank" class="forkme">Fork on GitHub</a>
 
     <header>
         <h1 class="sgs-logo">S<span>tylus</span> G<span>rid</span> S<span>ystem</span></h1>
         <p class="sgs-description">Fluid, Semantic and Non-Semantic grid system written in stylus</p>       
     </header>
 
-    <h2>Demo</h2>
     <section class="sgs-grid-demo">
+        <h2>Demo</h2>
         <div class="container">
             <div class="sgs1">1</div>
             <div class="sgs1">1</div>
@@ -57,15 +57,80 @@
         </div>
     </section>
     
-    <h2>Usage</h2>
-    <p>Import the sgs.styl file:</p>
     <section>
+        <h2>Starting</h2>
+        <p>Import the <code>sgs.styl</code> file:</p>
         <pre><code class="language-css">
     @import "path/to/sgs"
         </code></pre>
     </section>
-
     
+    <section>
+        <h2>Semantic Usage (#1 method)</h2>
+        <p>In #1 method, the responsive design has to be made manually.</p>
+    
+        <pre><code class="language-css">
+    .my-div
+      column(8)
+      @media tablet
+       column(7)
+
+    .other-div
+      column(4)
+      @media tablet
+       column(5)
+        </code></pre>
+    </section>
+
+    <p>Result:</p>
+    <div class="container">
+        <div class="my-div">.my-div</div>
+        <div class="other-div">.other-div</div>
+    </div>
+
+
+    <section>
+        <h2>Semantic Usage (#2 method)</h2>
+        <p>In #1 method, the responsive is automatically. Is used <code>@extend</code> stylus method.</p>
+        <pre><code class="language-css">
+    .my-div
+      @extend .sgs8
+
+    .other-div
+      @extend .sgs4
+        </code></pre>
+    </section>
+
+    <p>Result:</p>
+    <div class="container">
+        <div class="my-div-two">.my-div</div>
+        <div class="other-div-two">.other-div</div>
+    </div>
+
+    <section>
+        <h2>Non-Semantic Usage</h2>
+        <p>Is used classes from 1 to 12 (max colums configurable) for markup in your html. The <code>sgs</code> name also is configurable.</p>
+        <pre class="language-markup"><code class="language-markup">
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;sgs3&quot;&gt;3&lt;/div&gt;
+        &lt;div class=&quot;sgs3&quot;&gt;3&lt;/div&gt;
+        &lt;div class=&quot;sgs3&quot;&gt;3&lt;/div&gt;
+        &lt;div class=&quot;sgs3&quot;&gt;3&lt;/div&gt;
+    &lt;/div&gt;
+        </code></pre>
+    </section>
+
+    <p>Result:</p>
+    <div class="container">
+        <div class="sgs3">3</div>
+        <div class="sgs3">3</div>
+        <div class="sgs3">3</div>
+        <div class="sgs3">3</div>
+    </div>
+
+    <footer>
+        opa
+    </footer>
     
     <script src="assets/js/prism.js"></script>
 </body>

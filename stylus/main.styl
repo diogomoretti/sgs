@@ -18,10 +18,11 @@ header
 section
   max-width: 1040px
   padding: 0 1.2em
-  margin: 0 auto
+  margin: 5em auto 2em auto
 
 .sgs-grid-demo
   padding: 0
+  margin-top: .5em
 
 .sgs-logo
   display: inline-block
@@ -42,16 +43,28 @@ section
   margin: 1em 0
 
 h2
-  font-size: 1.8em
+  font-size: 2.4em
   color: #444
   text-align: center
-  margin: .6em 0
+  margin: .6em 0 .2em 0
 
 p
   font-size: 1.2em
   color: #999
   text-align: center
   margin: 0 0 .6em 0
+  line-height: 1.4em
+  code
+    color: #555
+    font-family: monospace
+    background: darken(#eee, 3%)
+    border: 1px solid darken(#eee, 10%)
+    padding: .1em .5em
+
+footer
+  margin: 4em 0 0 0
+  padding: 2em 0
+  background: #16a085
 
 // Fork me
 .forkme
@@ -82,3 +95,25 @@ p
     text-align: center
     &:hover
       background: darken(#ddd, 10%)
+
+// DEMO #1
+.my-div
+  column(8)
+  @media tablet
+    column(7)
+  @media phone
+    column(12)
+
+.other-div
+  column(4)
+  @media tablet
+    column(5)
+  @media phone
+    column(12)
+
+// DEMO #2
+.my-div-two
+  @extend .sgs8
+
+.other-div-two
+  @extend .sgs4

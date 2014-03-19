@@ -136,7 +136,8 @@ body *zoom:1:after {
     *margin: 0 0.24025941506410256%;
   }
 }
-.sgs4 {
+.sgs4,
+.other-div-two {
   display: inline;
   float: left;
   overflow: hidden;
@@ -148,7 +149,9 @@ body *zoom:1:after {
   *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
-  .sgs4 {
+  .sgs4,
+  .other-div-two,
+.other-div-two {
     display: inline;
     float: left;
     overflow: hidden;
@@ -245,7 +248,8 @@ body *zoom:1:after {
     *margin: 0 0.24025941506410256%;
   }
 }
-.sgs8 {
+.sgs8,
+.my-div-two {
   display: inline;
   float: left;
   overflow: hidden;
@@ -257,7 +261,9 @@ body *zoom:1:after {
   *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
-  .sgs8 {
+  .sgs8,
+  .my-div-two,
+.my-div-two {
     display: inline;
     float: left;
     overflow: hidden;
@@ -474,10 +480,11 @@ header {
 section {
   max-width: 1040px;
   padding: 0 1.2em;
-  margin: 0 auto;
+  margin: 5em auto 2em auto;
 }
 .sgs-grid-demo {
   padding: 0;
+  margin-top: 0.5em;
 }
 .sgs-logo {
   display: inline-block;
@@ -507,16 +514,29 @@ section {
   margin: 1em 0;
 }
 h2 {
-  font-size: 1.8em;
+  font-size: 2.4em;
   color: #444;
   text-align: center;
-  margin: 0.6em 0;
+  margin: 0.6em 0 0.2em 0;
 }
 p {
   font-size: 1.2em;
   color: #999;
   text-align: center;
   margin: 0 0 0.6em 0;
+  line-height: 1.4em;
+}
+p code {
+  color: #555;
+  font-family: monospace;
+  background: #e7e7e7;
+  border: 1px solid #d6d6d6;
+  padding: 0.1em 0.5em;
+}
+footer {
+  margin: 4em 0 0 0;
+  padding: 2em 0;
+  background: #16a085;
 }
 .forkme {
   display: block;
@@ -550,4 +570,78 @@ p {
 }
 .container div:hover {
   background: #c7c7c7;
+}
+.my-div {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  padding: 0 0;
+  width: 66.18589743589745%;
+  margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
+  *width: 69.99557625534189%;
+  *margin: 0 0.24025941506410256%;
+}
+@media (min-width: 581px) and (max-width: 880px) {
+  .my-div {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    padding: 0 0;
+    width: 57.85256410256411%;
+    margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
+    *width: 61.186064369658126%;
+    *margin: 0 0.24025941506410256%;
+  }
+}
+@media (max-width: 580px) {
+  .my-div {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
+  }
+}
+.other-div {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  padding: 0 0;
+  width: 32.8525641025641%;
+  margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
+  *width: 34.75752871260684%;
+  *margin: 0 0.24025941506410256%;
+}
+@media (min-width: 581px) and (max-width: 880px) {
+  .other-div {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    padding: 0 0;
+    width: 41.18589743589744%;
+    margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
+    *width: 43.56704059829061%;
+    *margin: 0 0.24025941506410256%;
+  }
+}
+@media (max-width: 580px) {
+  .other-div {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    padding: 0 0;
+    width: 99.51923076923077%;
+    margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
+    *width: 105.23362379807693%;
+    *margin: 0 0.24025941506410256%;
+  }
 }
