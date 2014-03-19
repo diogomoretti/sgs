@@ -25,324 +25,342 @@ body *zoom:1:after {
   margin: 0 auto;
   padding: 0 1em;
 }
-.span-1 {
+.sgs1 {
   display: inline;
   float: left;
   overflow: hidden;
   padding: 0 0;
   width: 7.852564102564102%;
   margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
   *width: 8.328993055555555%;
   *margin: 0 0.24025941506410256%;
 }
 @media (min-width: 581px) and (max-width: 880px) {
-  .span-1 {
+  .sgs1 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 16.185897435897438%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 17.138504941239315%;
     *margin: 0 0.24025941506410256%;
   }
 }
 @media (max-width: 580px) {
-  .span-1 {
+  .sgs1 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
 }
-.span-2 {
+.sgs2 {
   display: inline;
   float: left;
   overflow: hidden;
   padding: 0 0;
   width: 16.185897435897438%;
   margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
   *width: 17.138504941239315%;
   *margin: 0 0.24025941506410256%;
 }
 @media (min-width: 581px) and (max-width: 880px) {
-  .span-2 {
+  .sgs2 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 32.8525641025641%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 34.75752871260684%;
     *margin: 0 0.24025941506410256%;
   }
 }
 @media (max-width: 580px) {
-  .span-2 {
+  .sgs2 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
 }
-.span-3 {
+.sgs3 {
   display: inline;
   float: left;
   overflow: hidden;
   padding: 0 0;
   width: 24.519230769230766%;
   margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
   *width: 25.94801682692308%;
   *margin: 0 0.24025941506410256%;
 }
 @media (min-width: 581px) and (max-width: 880px) {
-  .span-3 {
+  .sgs3 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 49.519230769230774%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 52.37655248397436%;
     *margin: 0 0.24025941506410256%;
   }
 }
 @media (max-width: 580px) {
-  .span-3 {
+  .sgs3 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
 }
-.span-4 {
+.sgs4 {
   display: inline;
   float: left;
   overflow: hidden;
   padding: 0 0;
   width: 32.8525641025641%;
   margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
   *width: 34.75752871260684%;
   *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
-  .span-4 {
+  .sgs4 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
 }
-.span-5 {
+.sgs5 {
   display: inline;
   float: left;
   overflow: hidden;
   padding: 0 0;
   width: 41.18589743589744%;
   margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
   *width: 43.56704059829061%;
   *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
-  .span-5 {
+  .sgs5 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
 }
-.span-6,
-.teste,
-.diogo {
+.sgs6 {
   display: inline;
   float: left;
   overflow: hidden;
   padding: 0 0;
   width: 49.519230769230774%;
   margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
   *width: 52.37655248397436%;
   *margin: 0 0.24025941506410256%;
 }
 @media (min-width: 581px) and (max-width: 880px) {
-  .span-6,
-  .teste,
-  .diogo,
-.teste,
-.diogo {
+  .sgs6 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
 }
 @media (max-width: 580px) {
-  .span-6,
-  .teste,
-  .diogo,
-.teste,
-.diogo {
+  .sgs6 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
 }
-.span-7 {
+.sgs7 {
   display: inline;
   float: left;
   overflow: hidden;
   padding: 0 0;
   width: 57.85256410256411%;
   margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
   *width: 61.186064369658126%;
   *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
-  .span-7 {
+  .sgs7 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
 }
-.span-8 {
+.sgs8 {
   display: inline;
   float: left;
   overflow: hidden;
   padding: 0 0;
   width: 66.18589743589745%;
   margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
   *width: 69.99557625534189%;
   *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
-  .span-8 {
+  .sgs8 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
 }
-.span-9 {
+.sgs9 {
   display: inline;
   float: left;
   overflow: hidden;
   padding: 0 0;
   width: 74.51923076923077%;
   margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
   *width: 78.80508814102564%;
   *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
-  .span-9 {
+  .sgs9 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
 }
-.span-10 {
+.sgs10 {
   display: inline;
   float: left;
   overflow: hidden;
   padding: 0 0;
   width: 82.8525641025641%;
   margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
   *width: 87.61460002670941%;
   *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
-  .span-10 {
+  .sgs10 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
 }
-.span-11 {
+.sgs11 {
   display: inline;
   float: left;
   overflow: hidden;
   padding: 0 0;
   width: 91.18589743589745%;
   margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
   *width: 96.42411191239317%;
   *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
-  .span-11 {
+  .sgs11 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
 }
-.span-12 {
+.sgs12 {
   display: inline;
   float: left;
   overflow: hidden;
   padding: 0 0;
   width: 99.51923076923077%;
   margin: 0 0.2403846153846154%;
+  margin-bottom: 0.3em;
   *width: 105.23362379807693%;
   *margin: 0 0.24025941506410256%;
 }
 @media (max-width: 580px) {
-  .span-12 {
+  .sgs12 {
     display: inline;
     float: left;
     overflow: hidden;
     padding: 0 0;
     width: 99.51923076923077%;
     margin: 0 0.2403846153846154%;
+    margin-bottom: 0.3em;
     *width: 105.23362379807693%;
     *margin: 0 0.24025941506410256%;
   }
@@ -446,11 +464,90 @@ a img {
   transition: all 0.3s ease-in;
 }
 body {
-  background: #ccc;
+  background: #eee;
+  font-family: 'Varela Round', sans-serif;
 }
-.teste {
-  background: #fff;
+header {
+  text-align: center;
+  padding: 4em 0 4em 0;
 }
-.diogo {
+section {
+  max-width: 1040px;
+  padding: 0 1.2em;
+  margin: 0 auto;
+}
+.sgs-grid-demo {
+  padding: 0;
+}
+.sgs-logo {
+  display: inline-block;
+  background: #16a085;
+  font-size: 5em;
+  color: #fff;
+  margin: 0;
+  padding: 0.2em 0.1em;
+}
+@media (min-width: 581px) and (max-width: 880px) {
+  .sgs-logo {
+    font-size: 3.6em;
+    text-transform: lowercase;
+  }
+}
+.sgs-logo span {
+  display: inherit;
+}
+@media (max-width: 580px) {
+  .sgs-logo span {
+    display: none !important;
+  }
+}
+.sgs-description {
+  font-size: 1.53em;
+  color: #888;
+  margin: 1em 0;
+}
+h2 {
+  font-size: 1.8em;
+  color: #444;
+  text-align: center;
+  margin: 0.6em 0;
+}
+p {
+  font-size: 1.2em;
+  color: #999;
+  text-align: center;
+  margin: 0 0 0.6em 0;
+}
+.forkme {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: -75px;
   background: #fff;
+  color: #333;
+  height: 35px;
+  width: 250px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.9em;
+  line-height: 2.2em;
+  font-weight: bold;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-bottom: 1px solid #cacaca;
+  font-family: 'Arial', helvetica, sans-serif;
+}
+.forkme:hover {
+  background: #fafafa;
+}
+.container div {
+  background: #ddd;
+  padding: 1em;
+  text-align: center;
+}
+.container div:hover {
+  background: #c7c7c7;
 }

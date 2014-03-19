@@ -1,12 +1,12 @@
 // Load Gulp and your plugins
-var gulp = require('gulp'),
+var gulp    = require('gulp'),
     connect = require('gulp-connect'),
-    stylus = require('gulp-stylus'),
+    stylus  = require('gulp-stylus'),
     plumber = require('gulp-plumber');
 
 var paths = {
     styles: 'stylus/**/*',
-    html: '*.html'
+    html:   '*.html'
 };
 
 // Connect task

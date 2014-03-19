@@ -5,14 +5,25 @@
 
 // ========== CONFIG ==========
 // ============================
-sgs-config-columns           = 12
-sgs-config-gutter            = 5
-sgs-config-container         = 1040px
-sgs-config-padding-column    = 0
-sgs-config-padding-container = 0
-sgs-config-column-width      = sgs-config-container / sgs-config-columns
-sgs-config-class-container   = "container"
-sgs-config-class-column      = "span"
+
+// Number of columns - only number
+sgs-config-columns             = 12
+// Spacing between columns - value in px
+sgs-config-gutter              = 5
+// Max size of container
+sgs-config-container           = 1040px
+// Padding in column - values with unit (px, em, percent...)
+sgs-config-padding-column      = 0
+// Padding in container - values with unit (px, em, percent...)
+sgs-config-padding-container   = 0 1em
+// Margin bottom for each column - values with unit (px, em, percent...)
+sgs-config-marginbottom-column = .3em
+// Class of container - remember to change in your html
+sgs-config-class-container     = "container"
+// Class of column in non-semantic grid
+sgs-config-class-column        = "sgs"
+// Calc for obtain column-width
+sgs-config-column-width        = sgs-config-container / sgs-config-columns
 
 // ========== DEVICES =========
 // ============================
@@ -68,7 +79,7 @@ container()
   max-width: sgs-config-container
   width: 100%
   margin: 0 auto
-  padding: 0 1em
+  padding: sgs-config-padding-container
 
 column(x, sgs-config-columns = sgs-config-columns)
   display inline
@@ -77,6 +88,7 @@ column(x, sgs-config-columns = sgs-config-columns)
   padding 0 sgs-config-padding-column
   width total-width * ((((sgs-config-column-width ) * x) - sgs-config-gutter) / sgs-config-container)
   margin 0 total-width * ( (sgs-config-gutter * 0.5) / sgs-config-container)
+  margin-bottom sgs-config-marginbottom-column
   *width total-width * ((((sgs-config-gutter + sgs-config-column-width ) * x) - sgs-config-gutter) / sgs-config-container) - correction
   *margin 0 total-width * ( (sgs-config-gutter * 0.5) / sgs-config-container) - correction
 
@@ -90,7 +102,7 @@ offset(offset = 1)
   container()
 
 for index in (1..sgs-config-columns)
-  .{sgs-config-class-column}-{index}
+  .{sgs-config-class-column}{index}
     column(index)
     if index == 6
       @media tablet

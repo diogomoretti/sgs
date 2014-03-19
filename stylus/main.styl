@@ -7,13 +7,78 @@ global-reset()
   transition: all .3s ease-in
 
 body
-  background: #ccc
+  background: #eee
+  font-family: 'Varela Round', sans-serif
 
+// SGS
+header
+  text-align: center
+  padding: 4em 0 4em 0
 
-.teste
-  @extend .span-6
-  background: #FFF
+section
+  max-width: 1040px
+  padding: 0 1.2em
+  margin: 0 auto
 
-.diogo
-  @extend .span-6
-  background: #FFF
+.sgs-grid-demo
+  padding: 0
+
+.sgs-logo
+  display: inline-block
+  background: #16a085
+  font-size: 5em
+  color: #fff
+  margin: 0
+  padding: .2em .1em
+  @media tablet
+    font-size: 3.6em
+    text-transform: lowercase
+  span
+    hideOn(phone)
+
+.sgs-description
+  font-size: 1.53em
+  color: #888
+  margin: 1em 0
+
+h2
+  font-size: 1.8em
+  color: #444
+  text-align: center
+  margin: .6em 0
+
+p
+  font-size: 1.2em
+  color: #999
+  text-align: center
+  margin: 0 0 .6em 0
+
+// Fork me
+.forkme
+  display: block
+  position: absolute
+  top: 30px
+  left: -75px
+  background: #fff
+  color: #333
+  height: 35px
+  width: 250px
+  text-decoration: none
+  text-align: center
+  font-size: .9em
+  line-height: 2.2em
+  font-weight: bold
+  transform: rotate(-45deg)
+  border-bottom: 1px solid #CACACA
+  font-family: 'Arial', helvetica, sans-serif
+  &:hover
+    background: darken(#fff, 2%)
+
+// Demo
+.container
+  div
+    background: #ddd
+    padding: 1em
+    text-align: center
+    &:hover
+      background: darken(#ddd, 10%)
