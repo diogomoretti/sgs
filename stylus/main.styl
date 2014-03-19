@@ -6,6 +6,9 @@ global-reset()
 *
   transition: all .3s ease-in
 
+// VARS
+color-base = #4aa3df
+
 body
   background: #eee
   font-family: 'Varela Round', sans-serif
@@ -20,27 +23,11 @@ section
   padding: 0 1.2em
   margin: 5em auto 2em auto
 
-.sgs-grid-demo
-  padding: 0
-  margin-top: .5em
-
-.sgs-logo
-  display: inline-block
-  background: #16a085
-  font-size: 5em
-  color: #fff
-  margin: 0
-  padding: .2em .1em
-  @media tablet
-    font-size: 3.6em
-    text-transform: lowercase
-  span
-    hideOn(phone)
-
-.sgs-description
-  font-size: 1.53em
-  color: #888
-  margin: 1em 0
+footer
+  margin: 4em 0 0 0
+  padding: 2em 0
+  background: color-base
+  text-align: center
 
 h2
   font-size: 2.4em
@@ -61,10 +48,58 @@ p
     border: 1px solid darken(#eee, 10%)
     padding: .1em .5em
 
-footer
-  margin: 4em 0 0 0
-  padding: 2em 0
-  background: #16a085
+.sgs-grid-demo
+  padding: 0
+  margin-top: .5em
+
+.sgs-logo
+  display: inline-block
+  background: color-base
+  font-size: 5em
+  color: #fff
+  margin: 0
+  padding: .2em .1em
+  @media tablet
+    font-size: 3.6em
+    text-transform: lowercase
+  span
+    hideOn(phone)
+
+.sgs-description
+  font-size: 1.53em
+  color: #888
+  margin: 1em 0
+
+.credits
+  color: #fff
+
+.credits-link
+  text-decoration: none
+  color: #eee
+  border-bottom: 1px solid #eee
+
+.button
+  display: inline-block
+  margin: 1.2em 0 0 0
+  font-size: 1.6em
+  text-decoration: none
+  padding: .3em .6em
+  &:hover
+    color: #fff
+
+.button-github
+  color-button-gh = #999
+  color: color-button-gh
+  &:hover
+    background: color-button-gh
+    border-color: color-button-gh
+
+.button-download
+  color-button-dl = #27ae60
+  color: #fff
+  background: color-button-dl
+  &:hover
+    background: lighten(color-button-dl, 10%)
 
 // Fork me
 .forkme

@@ -17,7 +17,10 @@
 
     <header>
         <h1 class="sgs-logo">S<span>tylus</span> G<span>rid</span> S<span>ystem</span></h1>
-        <p class="sgs-description">Fluid, Semantic and Non-Semantic grid system written in stylus</p>       
+        <p class="sgs-description">Fluid, Semantic and Non-Semantic grid system written in stylus</p>
+        <p>
+            <a class="button button-download" href="https://github.com/diogomoretti/sgs/blob/gh-pages/stylus/_vendor/sgs.styl" target="_blank">Download</a>
+        </p>       
     </header>
 
     <section class="sgs-grid-demo">
@@ -54,6 +57,12 @@
         </div>
 
         <div class="container">
+            <div class="sgs4">4</div>
+            <div class="sgs4">4</div>
+            <div class="sgs4">4</div>
+        </div>
+
+        <div class="container">
             <div class="sgs6">6</div>
             <div class="sgs6">6</div>
         </div>
@@ -77,7 +86,7 @@
       @media tablet
        column(7)
 
-    .other-div
+    .my-other-div
       column(4)
       @media tablet
        column(5)
@@ -87,7 +96,7 @@
     <p>Result:</p>
     <div class="container">
         <div class="my-div">.my-div</div>
-        <div class="other-div">.other-div</div>
+        <div class="other-div">.my-other-div</div>
     </div>
 
 
@@ -98,7 +107,7 @@
     .my-div
       @extend .sgs8
 
-    .other-div
+    .my-other-div
       @extend .sgs4
         </code></pre>
     </section>
@@ -106,12 +115,12 @@
     <p>Result:</p>
     <div class="container">
         <div class="my-div-two">.my-div</div>
-        <div class="other-div-two">.other-div</div>
+        <div class="other-div-two">.my-other-div</div>
     </div>
 
     <section>
         <h2>Non-Semantic Usage</h2>
-        <p>Is used classes from 1 to 12 (max colums configurable) for markup in your html. The <code>sgs</code> name also is configurable.</p>
+        <p>Is used classes from 1 to 12 (max colums configurable) for markup in your html. The <code>sgs</code> prefix name also is configurable.</p>
         <pre class="language-markup"><code class="language-markup">
     &lt;div class=&quot;container&quot;&gt;
         &lt;div class=&quot;sgs3&quot;&gt;3&lt;/div&gt;
@@ -124,14 +133,14 @@
 
     <p>Result:</p>
     <div class="container">
-        <div class="sgs3">3</div>
-        <div class="sgs3">3</div>
-        <div class="sgs3">3</div>
-        <div class="sgs3">3</div>
+        <div class="sgs3">.sgs3</div>
+        <div class="sgs3">.sgs3</div>
+        <div class="sgs3">.sgs3</div>
+        <div class="sgs3">.sgs3</div>
     </div>
 
     <footer>
-        credits
+        <p class="credits">Made with ❤︎ by <a class="credits-link" href="https://github.com/diogomoretti">Diogo Moretti</a></p>
     </footer>
     
     <script src="assets/js/prism.js"></script>

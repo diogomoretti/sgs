@@ -482,13 +482,39 @@ section {
   padding: 0 1.2em;
   margin: 5em auto 2em auto;
 }
+footer {
+  margin: 4em 0 0 0;
+  padding: 2em 0;
+  background: #4aa3df;
+  text-align: center;
+}
+h2 {
+  font-size: 2.4em;
+  color: #444;
+  text-align: center;
+  margin: 0.6em 0 0.2em 0;
+}
+p {
+  font-size: 1.2em;
+  color: #999;
+  text-align: center;
+  margin: 0 0 0.6em 0;
+  line-height: 1.4em;
+}
+p code {
+  color: #555;
+  font-family: monospace;
+  background: #e7e7e7;
+  border: 1px solid #d6d6d6;
+  padding: 0.1em 0.5em;
+}
 .sgs-grid-demo {
   padding: 0;
   margin-top: 0.5em;
 }
 .sgs-logo {
   display: inline-block;
-  background: #16a085;
+  background: #4aa3df;
   font-size: 5em;
   color: #fff;
   margin: 0;
@@ -513,30 +539,37 @@ section {
   color: #888;
   margin: 1em 0;
 }
-h2 {
-  font-size: 2.4em;
-  color: #444;
-  text-align: center;
-  margin: 0.6em 0 0.2em 0;
+.credits {
+  color: #fff;
 }
-p {
-  font-size: 1.2em;
+.credits-link {
+  text-decoration: none;
+  color: #eee;
+  border-bottom: 1px solid #eee;
+}
+.button {
+  display: inline-block;
+  margin: 1.2em 0 0 0;
+  font-size: 1.6em;
+  text-decoration: none;
+  padding: 0.3em 0.6em;
+}
+.button:hover {
+  color: #fff;
+}
+.button-github {
   color: #999;
-  text-align: center;
-  margin: 0 0 0.6em 0;
-  line-height: 1.4em;
 }
-p code {
-  color: #555;
-  font-family: monospace;
-  background: #e7e7e7;
-  border: 1px solid #d6d6d6;
-  padding: 0.1em 0.5em;
+.button-github:hover {
+  background: #999;
+  border-color: #999;
 }
-footer {
-  margin: 4em 0 0 0;
-  padding: 2em 0;
-  background: #16a085;
+.button-download {
+  color: #fff;
+  background: #27ae60;
+}
+.button-download:hover {
+  background: #2cc66d;
 }
 .forkme {
   display: block;
