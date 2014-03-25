@@ -541,6 +541,7 @@ p code {
 }
 .features {
   margin-top: 0;
+  margin-bottom: 6em;
   text-align: center;
 }
 .features li {
