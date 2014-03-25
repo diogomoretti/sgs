@@ -539,6 +539,15 @@ p code {
   color: #888;
   margin: 1em 0;
 }
+.features {
+  margin-top: 0;
+  text-align: center;
+}
+.features li {
+  line-height: 1.8em;
+  color: #555;
+  font-size: 1.1em;
+}
 .credits {
   color: #fff;
 }
@@ -571,6 +580,7 @@ p code {
 .button-download {
   color: #fff;
   background: #27ae60;
+  border: 1px solid #27ae60;
 }
 .button-download:hover {
   background: #2cc66d;
